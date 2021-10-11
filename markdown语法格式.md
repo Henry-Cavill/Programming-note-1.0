@@ -331,7 +331,7 @@ title可加可不加
 
 语法：
 
-```flow
+```java
 st=>start: 开始
 op=>operation: My Operation
 cond=>condition: Yes or No?
@@ -339,17 +339,20 @@ e=>end
 st->op->cond
 cond(yes)->e
 cond(no)->op
-&```
+```
+
 效果如下：
+
 ```flow
-st=>start: 开始
+st=>start: Start
+e=>end
 op=>operation: My Operation
 cond=>condition: Yes or No?
-e=>end
+
 st->op->cond
 cond(yes)->e
 cond(no)->op
-&```
+```
 
 @(示例笔记本)[马克飞象|帮助|Markdown]
 ### 复选框
